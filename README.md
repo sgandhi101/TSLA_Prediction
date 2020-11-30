@@ -1,6 +1,6 @@
 # B365 Final Course Project — TSLA Stock Price Predictor
 Tested in Python 3.8
-
+## How to Run the Algorithms
 #### Easy install all required libraries:
 `pip install watson-developer-cloud pandas scikit-learn matplotlib numpy yfinance`
 
