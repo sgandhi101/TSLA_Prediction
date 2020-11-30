@@ -11,3 +11,11 @@ Individual Libraries Required:
 4. [Matplotlib](https://pypi.org/project/matplotlib/)
 5. [Numpy](https://pypi.org/project/numpy/)
 6. [Yahoo Finance](https://pypi.org/project/yfinance/)
+
+List of possible algorithms:
+1. Decision Trees in `decisionTree.py`
+2. k-Nearest Neighbour in `knn.py`
+3. Naive Bayes in `naiveBayes.py`
+4. Random Forest in `randomForest.py`
+5. Linear Regression in `regression.py`
+6. Neural Network in `neuralNetwork.py`
