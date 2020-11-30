@@ -36,12 +36,12 @@ These two commands will generate the Tweet dataset in `csv` and `json` formats
 Next, run the `cleanTweet.py` program in order to remove attributes that are not necessary and create sub data sets that will make it easier to aggregate in the main file
 
 #### Historical Stock Data
-Next, run the `historicalData.py` in order to create a `csv` with TSLA historical values
-Run again and edit the `tickerName` variable to `QQQ` in order to generate NASAQ historical values and change this line:
+Run the `historicalData.py` in order to create a `csv` with TSLA historical values
+Then, on `line 18`, edit the `tickerName` variable to `QQQ` in order to generate NASAQ historical values and then change `line 13` to:
 
 `df.to_csv(r"historicals.csv", index=True, header=True)` to this: `df.to_csv(r"nasdaq.csv", index=True, header=True)`
 
-This will generate the TSLA and NASDAQ financial data sets
+Run again and you will now have the TSLA and NASDAQ financial data sets
 
 #### Putting it all together
 Simply run the `main.py` file in order to generate the `aggregate.csv` dataset that is used for regression
