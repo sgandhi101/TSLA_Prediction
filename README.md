@@ -19,3 +19,5 @@ Tested in Python 3.8
 4. Random Forest in `randomForest.py`
 5. Linear Regression in `regression.py`
 6. Neural Network in `neuralNetwork.py`
+
+Simply run any of the Python files and keep all the `csv` and `json` files in the same directory to ensure proper functionality
