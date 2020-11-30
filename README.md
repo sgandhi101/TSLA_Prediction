@@ -25,7 +25,8 @@ Simply run any of the Python files and keep all the `csv` and `json` files in th
 ## How to Generate the Dataset
 #### Tweet Dataset
 In order to generate the tweet dataset, you must install [Twint](https://github.com/twintproject/twint)
-This is a Python library that can bypass the official Twitter API limitations on downloading Tweets
+This is a Python library that can bypass the official Twitter API limitations on the number of Tweets that can be downloaded
+
 Simply run `pip3 install twint` to install
 Then, in your command line run two commands:
 1. `twint -u elonmusk --since 2010-06-29 -o tweets.csv --csv`
