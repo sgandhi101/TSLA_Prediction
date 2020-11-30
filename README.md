@@ -45,4 +45,5 @@ This will generate the TSLA and NASDAQ financial data sets
 
 #### Putting it all together
 Simply run the `main.py` file in order to generate the `aggregate.csv` dataset that is used for regression
+
 Then, run the `classificationDataset.py` file in order to create the dataset that is used for classification
