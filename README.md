@@ -25,6 +25,7 @@ Simply run any of the Python files and keep all the `csv` and `json` files in th
 ## How to Generate the Dataset
 #### Tweet Dataset
 In order to generate the tweet dataset, you must install [Twint](https://github.com/twintproject/twint)
+
 This is a Python library that can bypass the official Twitter API limitations on the number of Tweets that can be downloaded
 
 Simply run `pip3 install twint` to install
@@ -38,6 +39,7 @@ Next, run the `cleanTweet.py` program in order to remove attributes that are not
 
 #### Historical Stock Data
 Run the `historicalData.py` in order to create a `csv` with TSLA historical values
+
 Then, on `line 18`, edit the `tickerName` variable to `QQQ` in order to generate NASAQ historical values and then change `line 13` to:
 
 `df.to_csv(r"historicals.csv", index=True, header=True)` to this: `df.to_csv(r"nasdaq.csv", index=True, header=True)`
